@@ -1,0 +1,2266 @@
+#########
+#    ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+# @#    #
+#########
+Posicion:x:2 y:6
+Movimientos:0
+Heuristica:2
+Id:1
+Hijos:
+Padre:
+100
+-----------------------------------------------------------
+
+#########
+#    ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+# @#    #
+#########
+Posicion:x:2 y:6
+Movimientos:0
+Heuristica:2
+Id:1
+Hijos:,,2,
+Padre:
+
+#########
+#    ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#@ #    #
+#########
+Posicion:x:1 y:6
+Movimientos:1
+Heuristica:1
+Id:2
+Hijos:3,,,4
+Padre:,,,1
+
+#########
+#    ...#
+#       #
+#   +   #
+#  ##+  #
+#@## +  #
+#  #    #
+#########
+Posicion:x:1 y:5
+Movimientos:2
+Heuristica:0
+Id:3
+Hijos:5,6,,
+Padre:,2
+
+#########
+#    ...#
+#       #
+#   +   #
+#@ ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:4
+Movimientos:3
+Heuristica:-1
+Id:5
+Hijos:7,8,,9
+Padre:,3
+
+#########
+#    ...#
+#       #
+#@  +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:3
+Movimientos:4
+Heuristica:-2
+Id:7
+Hijos:10,11,,13
+Padre:,5
+
+#########
+#    ...#
+#       #
+#   +   #
+# @##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:4
+Movimientos:4
+Heuristica:-2
+Id:9
+Hijos:13,,14,
+Padre:,,5
+
+#########
+#    ...#
+#@      #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:2
+Movimientos:5
+Heuristica:-3
+Id:10
+Hijos:15,16,,18
+Padre:,7
+
+#########
+#    ...#
+#       #
+# @ +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:3
+Movimientos:5
+Heuristica:-3
+Id:13
+Hijos:18,19,20,21
+Padre:,9
+
+#########
+#@   ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:1
+Movimientos:6
+Heuristica:-4
+Id:15
+Hijos:,22,,24
+Padre:,10
+
+#########
+#    ...#
+# @     #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:2
+Movimientos:6
+Heuristica:-4
+Id:18
+Hijos:24,25,26,28
+Padre:,13
+
+#########
+#    ...#
+#       #
+#  @+   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:3
+Movimientos:6
+Heuristica:-4
+Id:21
+Hijos:28,,29,30
+Padre:,,13
+
+#########
+# @  ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:1
+Movimientos:7
+Heuristica:-5
+Id:24
+Hijos:,40,41,43
+Padre:,18
+
+#########
+#    ...#
+#  @    #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:2
+Movimientos:7
+Heuristica:-5
+Id:28
+Hijos:43,44,45,46
+Padre:,21
+
+#########
+#    ...#
+#       #
+#   @+  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:3
+Movimientos:7
+Heuristica:-4
+Id:30
+Hijos:31,,32,33
+Padre:,,21
+
+#########
+#    ...#
+#   @   #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:2
+Movimientos:8
+Heuristica:-5
+Id:31
+Hijos:47,48,51,50
+Padre:,30
+
+#########
+#    ...#
+#       #
+#  @ +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:3
+Movimientos:8
+Heuristica:-5
+Id:32
+Hijos:51,,52,53
+Padre:,,,30
+
+#########
+#    ...#
+#       #
+#    @+ #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:8
+Heuristica:-4
+Id:33
+Hijos:34,,35,36
+Padre:,,30
+
+#########
+#    ...#
+#    @  #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:2
+Movimientos:9
+Heuristica:-5
+Id:34
+Hijos:54,55,58,57
+Padre:,33
+
+#########
+#    ...#
+#       #
+#   @ + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:3
+Movimientos:9
+Heuristica:-5
+Id:35
+Hijos:58,,59,60
+Padre:,,,33
+
+#########
+#    ...#
+#       #
+#     @+#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:9
+Heuristica:-4
+Id:36
+Hijos:37,38,39,
+Padre:,,33
+
+#########
+#    ...#
+#     @ #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:10
+Heuristica:-5
+Id:37
+Hijos:61,62,68,64
+Padre:,36
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+@ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:4
+Movimientos:10
+Heuristica:-5
+Id:38
+Hijos:65,66,,67
+Padre:36
+
+#########
+#    ...#
+#       #
+#    @ +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:10
+Heuristica:-5
+Id:39
+Hijos:68,,69,70
+Padre:,,,36
+
+#########
+#  @ ...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:1
+Movimientos:8
+Heuristica:-6
+Id:43
+Hijos:,71,72,74
+Padre:,28
+
+#########
+#    ...#
+#   @   #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:2
+Movimientos:8
+Heuristica:-6
+Id:46
+Hijos:74,,75,76
+Padre:,,28
+
+#########
+#   @...#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:1
+Movimientos:9
+Heuristica:-6
+Id:47
+Hijos:,77,80,84
+Padre:,31
+
+#########
+#    ...#
+#  @    #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:2
+Movimientos:9
+Heuristica:-6
+Id:51
+Hijos:80,81,87,83
+Padre:,32
+
+#########
+#    ...#
+#    @  #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:2
+Movimientos:9
+Heuristica:-6
+Id:50
+Hijos:84,,85,86
+Padre:,,31
+
+#########
+#    ...#
+#       #
+# @  +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:3
+Movimientos:9
+Heuristica:-6
+Id:52
+Hijos:87,88,89,90
+Padre:,,,32
+
+#########
+#    @..#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:1
+Movimientos:10
+Heuristica:-6
+Id:54
+Hijos:,91,94,98
+Padre:,34
+
+#########
+#    ...#
+#   @   #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:2
+Movimientos:10
+Heuristica:-6
+Id:58
+Hijos:94,95,102,97
+Padre:,35
+
+#########
+#    ...#
+#     @ #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:10
+Heuristica:-6
+Id:57
+Hijos:98,99,100,101
+Padre:,,34
+
+#########
+#    ...#
+#       #
+#  @  + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:3
+Movimientos:10
+Heuristica:-6
+Id:59
+Hijos:102,,103,104
+Padre:,,,35
+
+#########
+#    .@.#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:1
+Movimientos:11
+Heuristica:-6
+Id:61
+Hijos:,105,108,112
+Padre:,37
+
+#########
+#    ...#
+#    @  #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:2
+Movimientos:11
+Heuristica:-6
+Id:68
+Hijos:108,109,122,111
+Padre:,39
+
+#########
+#    ...#
+#      @#
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:11
+Heuristica:-6
+Id:64
+Hijos:112,113,114,
+Padre:,,37
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## +@ #
+#  #    #
+#########
+Posicion:x:6 y:5
+Movimientos:11
+Heuristica:-6
+Id:66
+Hijos:115,116,117,120
+Padre:38
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+ @#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:11
+Heuristica:-6
+Id:67
+Hijos:119,120,121,
+Padre:,,38
+
+#########
+#    ...#
+#       #
+#   @  +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:3
+Movimientos:11
+Heuristica:-6
+Id:69
+Hijos:122,,123,124
+Padre:,,,39
+
+#########
+#   @...#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:1
+Movimientos:9
+Heuristica:-7
+Id:74
+Hijos:,143,144,146
+Padre:,46
+
+#########
+#    ...#
+#    @  #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:2
+Movimientos:9
+Heuristica:-7
+Id:76
+Hijos:146,147,148,149
+Padre:,,46
+
+#########
+#  @ ...#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:1
+Movimientos:10
+Heuristica:-7
+Id:80
+Hijos:,150,156,152
+Padre:,51
+
+#########
+#    @..#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:1
+Movimientos:10
+Heuristica:-7
+Id:84
+Hijos:,153,154,160
+Padre:,50
+
+#########
+#    ...#
+# @     #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:2
+Movimientos:10
+Heuristica:-7
+Id:87
+Hijos:156,157,166,159
+Padre:,52
+
+#########
+#    ...#
+#     @ #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:10
+Heuristica:-7
+Id:86
+Hijos:160,161,162,163
+Padre:,,50
+
+#########
+#    ...#
+#       #
+#    +  #
+# @##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:4
+Movimientos:10
+Heuristica:-7
+Id:88
+Hijos:164,,167,
+Padre:52
+
+#########
+#    ...#
+#       #
+#@   +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:3
+Movimientos:10
+Heuristica:-7
+Id:89
+Hijos:166,167,,168
+Padre:,,,52
+
+#########
+#   @...#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:1
+Movimientos:11
+Heuristica:-7
+Id:94
+Hijos:,169,175,171
+Padre:,58
+
+#########
+#    .@.#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:1
+Movimientos:11
+Heuristica:-7
+Id:98
+Hijos:,172,173,179
+Padre:,57
+
+#########
+#    ...#
+#  @    #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:2
+Movimientos:11
+Heuristica:-7
+Id:102
+Hijos:175,176,182,178
+Padre:,59
+
+#########
+#    ...#
+#       #
+#     @ #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:11
+Heuristica:-6
+Id:99
+Hijos:125,126,127,128
+Padre:57
+
+#########
+#    ...#
+#      @#
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:11
+Heuristica:-7
+Id:101
+Hijos:179,180,181,
+Padre:,,57
+
+#########
+#    ...#
+#       #
+# @   + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:3
+Movimientos:11
+Heuristica:-7
+Id:103
+Hijos:182,183,184,185
+Padre:,,,59
+
+#########
+#    @..#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:1
+Movimientos:12
+Heuristica:-7
+Id:108
+Hijos:,186,191,188
+Padre:,68
+
+#########
+#    ..@#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:1
+Movimientos:12
+Heuristica:-7
+Id:112
+Hijos:,189,190,
+Padre:,64
+
+#########
+#    ...#
+#   @   #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:2
+Movimientos:12
+Heuristica:-7
+Id:122
+Hijos:191,192,201,194
+Padre:,69
+
+#########
+#    ...#
+#       #
+#      @#
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:12
+Heuristica:-6
+Id:113
+Hijos:129,130,131,
+Padre:64
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #  @ #
+#########
+Posicion:x:6 y:6
+Movimientos:12
+Heuristica:-7
+Id:116
+Hijos:195,,196,199
+Padre:66
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ##+@  #
+#  #    #
+#########
+Posicion:x:5 y:5
+Movimientos:12
+Heuristica:-8
+Id:117
+Hijos:247,248,,249
+Padre:,,,66
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## + @#
+#  #    #
+#########
+Posicion:x:7 y:5
+Movimientos:12
+Heuristica:-7
+Id:120
+Hijos:198,199,200,
+Padre:67
+
+#########
+#    ...#
+#      +#
+#      @#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:12
+Heuristica:-8
+Id:119
+Hijos:250,251,252,
+Padre:,67
+
+#########
+#    ...#
+#       #
+#  @   +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:3
+Movimientos:12
+Heuristica:-7
+Id:123
+Hijos:201,,202,203
+Padre:,,,69
+
+#########
+#    ...#
+#     @ #
+#       #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:12
+Heuristica:-7
+Id:125
+Hijos:204,205,208,211
+Padre:,99
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+@ #
+# ## ++ #
+#  #    #
+#########
+Posicion:x:6 y:4
+Movimientos:12
+Heuristica:-6
+Id:126
+Hijos:132,133,,134
+Padre:99
+
+#########
+#    ...#
+#       #
+#    @  #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:12
+Heuristica:-7
+Id:127
+Hijos:208,,209,210
+Padre:,,,99
+
+#########
+#    ...#
+#       #
+#      @#
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:12
+Heuristica:-7
+Id:128
+Hijos:211,212,213,
+Padre:,,99
+
+#########
+#    ...#
+#      @#
+#       #
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:13
+Heuristica:-7
+Id:129
+Hijos:214,215,217,
+Padre:,113
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+ @#
+# ## + +#
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:13
+Heuristica:-6
+Id:130
+Hijos:135,136,137,
+Padre:113
+
+#########
+#    ...#
+#       #
+#     @ #
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:13
+Heuristica:-7
+Id:131
+Hijos:217,218,219,220
+Padre:,,,113
+
+#########
+#    ...#
+#       #
+#     @ #
+#  ##+  #
+# ## ++ #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:13
+Heuristica:-7
+Id:132
+Hijos:221,222,223,225
+Padre:,126
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## +@ #
+#  #  + #
+#########
+Posicion:x:6 y:5
+Movimientos:13
+Heuristica:-6
+Id:133
+Hijos:138,,139,140
+Padre:126
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+ @#
+# ## ++ #
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:13
+Heuristica:-7
+Id:134
+Hijos:225,226,227,
+Padre:,,126
+
+#########
+#    ...#
+#       #
+#      @#
+#  ##+  #
+# ## + +#
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:14
+Heuristica:-7
+Id:135
+Hijos:228,229,231,
+Padre:,130
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## + @#
+#  #   +#
+#########
+Posicion:x:7 y:5
+Movimientos:14
+Heuristica:-6
+Id:136
+Hijos:141,,142,
+Padre:130
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+@ #
+# ## + +#
+#  #    #
+#########
+Posicion:x:6 y:4
+Movimientos:14
+Heuristica:-7
+Id:137
+Hijos:231,232,,233
+Padre:,,,130
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+@ #
+# ## +  #
+#  #  + #
+#########
+Posicion:x:6 y:4
+Movimientos:14
+Heuristica:-7
+Id:138
+Hijos:234,235,,237
+Padre:,133
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ##+@  #
+#  #  + #
+#########
+Posicion:x:5 y:5
+Movimientos:14
+Heuristica:-8
+Id:139
+Hijos:253,254,,255
+Padre:,,,133
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## + @#
+#  #  + #
+#########
+Posicion:x:7 y:5
+Movimientos:14
+Heuristica:-7
+Id:140
+Hijos:237,238,239,
+Padre:,,133
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+ @#
+# ## +  #
+#  #   +#
+#########
+Posicion:x:7 y:4
+Movimientos:15
+Heuristica:-7
+Id:141
+Hijos:240,241,243,
+Padre:,136
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## +@ #
+#  #   +#
+#########
+Posicion:x:6 y:5
+Movimientos:15
+Heuristica:-7
+Id:142
+Hijos:243,244,245,246
+Padre:,,,136
+
+#########
+#    @..#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:1
+Movimientos:10
+Heuristica:-8
+Id:146
+Hijos:,256,257,262
+Padre:,76
+
+#########
+#    ...#
+#       #
+#   +@  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:10
+Heuristica:-8
+Id:147
+Hijos:259,,260,263
+Padre:76
+
+#########
+#    ...#
+#     @ #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:10
+Heuristica:-8
+Id:149
+Hijos:262,263,264,265
+Padre:,,76
+
+#########
+# @  ...#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:1
+Movimientos:11
+Heuristica:-8
+Id:156
+Hijos:,266,272,268
+Padre:,87
+
+#########
+#    .@.#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:1
+Movimientos:11
+Heuristica:-8
+Id:160
+Hijos:,269,270,279
+Padre:,86
+
+#########
+#    ...#
+#@      #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:2
+Movimientos:11
+Heuristica:-8
+Id:166
+Hijos:272,273,,274
+Padre:,89
+
+#########
+#    ...#
+#       #
+#    +@ #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:11
+Heuristica:-8
+Id:161
+Hijos:275,276,277,280
+Padre:86
+
+#########
+#    ...#
+#      @#
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:11
+Heuristica:-8
+Id:163
+Hijos:279,280,281,
+Padre:,,86
+
+#########
+#    ...#
+#       #
+#    +  #
+#@ ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:4
+Movimientos:11
+Heuristica:-8
+Id:167
+Hijos:282,283,,284
+Padre:89
+
+#########
+#  @ ...#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:1
+Movimientos:12
+Heuristica:-8
+Id:175
+Hijos:,285,290,287
+Padre:,102
+
+#########
+#    ..@#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:1
+Movimientos:12
+Heuristica:-8
+Id:179
+Hijos:,288,289,
+Padre:,101
+
+#########
+#    ...#
+# @     #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:2
+Movimientos:12
+Heuristica:-8
+Id:182
+Hijos:290,291,299,293
+Padre:,103
+
+#########
+#    ...#
+#       #
+#     +@#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:12
+Heuristica:-8
+Id:180
+Hijos:294,295,296,
+Padre:101
+
+#########
+#    ...#
+#       #
+#     + #
+# @##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:4
+Movimientos:12
+Heuristica:-8
+Id:183
+Hijos:297,,300,
+Padre:103
+
+#########
+#    ...#
+#       #
+#@    + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:3
+Movimientos:12
+Heuristica:-8
+Id:184
+Hijos:299,300,,301
+Padre:,,,103
+
+#########
+#   @...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:1
+Movimientos:13
+Heuristica:-8
+Id:191
+Hijos:,302,305,304
+Padre:,122
+
+#########
+#    ...#
+#  @    #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:2
+Movimientos:13
+Heuristica:-8
+Id:201
+Hijos:305,306,313,308
+Padre:,123
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  # @  #
+#########
+Posicion:x:5 y:6
+Movimientos:13
+Heuristica:-8
+Id:196
+Hijos:,,309,310
+Padre:,,,116
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #   @#
+#########
+Posicion:x:7 y:6
+Movimientos:13
+Heuristica:-8
+Id:199
+Hijos:311,,312,
+Padre:120
+
+#########
+#    ...#
+#       #
+# @    +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:3
+Movimientos:13
+Heuristica:-8
+Id:202
+Hijos:313,314,315,316
+Padre:,,,123
+
+#########
+#    .@.#
+#       #
+#       #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:1
+Movimientos:13
+Heuristica:-8
+Id:204
+Hijos:
+Padre:,125
+
+#########
+#    ...#
+#    @  #
+#       #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:2
+Movimientos:13
+Heuristica:-8
+Id:208
+Hijos:
+Padre:,127
+
+#########
+#    ...#
+#      @#
+#       #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:13
+Heuristica:-8
+Id:211
+Hijos:
+Padre:,128
+
+#########
+#    ...#
+#       #
+#   @   #
+#  ##++ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:3
+Movimientos:13
+Heuristica:-8
+Id:209
+Hijos:
+Padre:,,,127
+
+#########
+#    ...#
+#       #
+#       #
+#  ##++@#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:13
+Heuristica:-8
+Id:212
+Hijos:
+Padre:128
+
+#########
+#    ..@#
+#       #
+#       #
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:1
+Movimientos:14
+Heuristica:-8
+Id:214
+Hijos:
+Padre:,129
+
+#########
+#    ...#
+#     @ #
+#       #
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:14
+Heuristica:-8
+Id:217
+Hijos:
+Padre:,131
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+@+#
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:4
+Movimientos:14
+Heuristica:-8
+Id:218
+Hijos:
+Padre:131
+
+#########
+#    ...#
+#       #
+#    @  #
+#  ##+ +#
+# ## +  #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:14
+Heuristica:-8
+Id:219
+Hijos:
+Padre:,,,131
+
+#########
+#    ...#
+#     @ #
+#       #
+#  ##+  #
+# ## ++ #
+#  #    #
+#########
+Posicion:x:6 y:2
+Movimientos:14
+Heuristica:-8
+Id:221
+Hijos:
+Padre:,132
+
+#########
+#    ...#
+#       #
+#    @  #
+#  ##+  #
+# ## ++ #
+#  #    #
+#########
+Posicion:x:5 y:3
+Movimientos:14
+Heuristica:-8
+Id:223
+Hijos:
+Padre:,,,132
+
+#########
+#    ...#
+#       #
+#      @#
+#  ##+  #
+# ## ++ #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:14
+Heuristica:-8
+Id:225
+Hijos:
+Padre:,134
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## ++@#
+#  #    #
+#########
+Posicion:x:7 y:5
+Movimientos:14
+Heuristica:-8
+Id:226
+Hijos:
+Padre:134
+
+#########
+#    ...#
+#      @#
+#       #
+#  ##+  #
+# ## + +#
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:15
+Heuristica:-8
+Id:228
+Hijos:
+Padre:,135
+
+#########
+#    ...#
+#       #
+#     @ #
+#  ##+  #
+# ## + +#
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:15
+Heuristica:-8
+Id:231
+Hijos:
+Padre:,137
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## +@+#
+#  #    #
+#########
+Posicion:x:6 y:5
+Movimientos:15
+Heuristica:-8
+Id:232
+Hijos:
+Padre:137
+
+#########
+#    ...#
+#       #
+#     @ #
+#  ##+  #
+# ## +  #
+#  #  + #
+#########
+Posicion:x:6 y:3
+Movimientos:15
+Heuristica:-8
+Id:234
+Hijos:
+Padre:,138
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+ @#
+# ## +  #
+#  #  + #
+#########
+Posicion:x:7 y:4
+Movimientos:15
+Heuristica:-8
+Id:237
+Hijos:
+Padre:,140
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## +  #
+#  #  +@#
+#########
+Posicion:x:7 y:6
+Movimientos:15
+Heuristica:-8
+Id:238
+Hijos:
+Padre:140
+
+#########
+#    ...#
+#       #
+#      @#
+#  ##+  #
+# ## +  #
+#  #   +#
+#########
+Posicion:x:7 y:3
+Movimientos:16
+Heuristica:-8
+Id:240
+Hijos:
+Padre:,141
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+@ #
+# ## +  #
+#  #   +#
+#########
+Posicion:x:6 y:4
+Movimientos:16
+Heuristica:-8
+Id:243
+Hijos:
+Padre:,142
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ## +  #
+#  #  @+#
+#########
+Posicion:x:6 y:6
+Movimientos:16
+Heuristica:-8
+Id:244
+Hijos:
+Padre:142
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ##+@  #
+#  #   +#
+#########
+Posicion:x:5 y:5
+Movimientos:16
+Heuristica:-9
+Id:245
+Hijos:
+Padre:,,,142
+
+#########
+#    ...#
+#       #
+#    + +#
+#  ##@  #
+# ##+   #
+#  #    #
+#########
+Posicion:x:5 y:4
+Movimientos:13
+Heuristica:-10
+Id:247
+Hijos:
+Padre:,117
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ##+   #
+#  # @  #
+#########
+Posicion:x:5 y:6
+Movimientos:13
+Heuristica:-9
+Id:248
+Hijos:
+Padre:117
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ##+ @ #
+#  #    #
+#########
+Posicion:x:6 y:5
+Movimientos:13
+Heuristica:-9
+Id:249
+Hijos:
+Padre:,,117
+
+#########
+#    ..*#
+#      @#
+#       #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:13
+Heuristica:-10
+Id:250
+Hijos:
+Padre:,119
+
+#########
+#    ...#
+#      +#
+#       #
+#  ##+ @#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:13
+Heuristica:-9
+Id:251
+Hijos:
+Padre:119
+
+#########
+#    ...#
+#      +#
+#     @ #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:13
+Heuristica:-9
+Id:252
+Hijos:
+Padre:,,,119
+
+#########
+#    ...#
+#       #
+#    +  #
+#  ##@  #
+# ##+   #
+#  #  + #
+#########
+Posicion:x:5 y:4
+Movimientos:15
+Heuristica:-10
+Id:253
+Hijos:
+Padre:,139
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ##+   #
+#  # @+ #
+#########
+Posicion:x:5 y:6
+Movimientos:15
+Heuristica:-9
+Id:254
+Hijos:
+Padre:139
+
+#########
+#    ...#
+#       #
+#       #
+#  ##+  #
+# ##+ @ #
+#  #  + #
+#########
+Posicion:x:6 y:5
+Movimientos:15
+Heuristica:-9
+Id:255
+Hijos:
+Padre:,,139
+
+#########
+#    .@.#
+#       #
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:1
+Movimientos:11
+Heuristica:-9
+Id:262
+Hijos:
+Padre:,149
+
+#########
+#    ...#
+#       #
+#  +@   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:4 y:3
+Movimientos:11
+Heuristica:-10
+Id:260
+Hijos:
+Padre:,,,147
+
+#########
+#    ...#
+#       #
+#   + @ #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:3
+Movimientos:11
+Heuristica:-9
+Id:263
+Hijos:
+Padre:149
+
+#########
+#    ...#
+#      @#
+#   +   #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:2
+Movimientos:11
+Heuristica:-9
+Id:265
+Hijos:
+Padre:,,149
+
+#########
+#@   ...#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:1
+Movimientos:12
+Heuristica:-9
+Id:272
+Hijos:
+Padre:,166
+
+#########
+#    ..@#
+#       #
+#    +  #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:1
+Movimientos:12
+Heuristica:-9
+Id:279
+Hijos:
+Padre:,163
+
+#########
+#    ...#
+#       #
+#    +  #
+#  ##+@ #
+# ## +  #
+#  #    #
+#########
+Posicion:x:6 y:4
+Movimientos:12
+Heuristica:-9
+Id:276
+Hijos:
+Padre:161
+
+#########
+#    ...#
+#       #
+#    + @#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:3
+Movimientos:12
+Heuristica:-9
+Id:280
+Hijos:
+Padre:163
+
+#########
+#    ...#
+#       #
+#    +  #
+#  ##+  #
+#@## +  #
+#  #    #
+#########
+Posicion:x:1 y:5
+Movimientos:12
+Heuristica:-9
+Id:283
+Hijos:
+Padre:167
+
+#########
+# @  ...#
+#       #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:1
+Movimientos:13
+Heuristica:-9
+Id:290
+Hijos:
+Padre:,182
+
+#########
+#    ...#
+#@      #
+#     + #
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:2
+Movimientos:13
+Heuristica:-9
+Id:299
+Hijos:
+Padre:,184
+
+#########
+#    ...#
+#       #
+#     + #
+#  ##+ @#
+# ## +  #
+#  #    #
+#########
+Posicion:x:7 y:4
+Movimientos:13
+Heuristica:-9
+Id:295
+Hijos:
+Padre:180
+
+#########
+#    ...#
+#       #
+#     + #
+#@ ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:4
+Movimientos:13
+Heuristica:-9
+Id:300
+Hijos:
+Padre:184
+
+#########
+#  @ ...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:3 y:1
+Movimientos:14
+Heuristica:-9
+Id:305
+Hijos:
+Padre:,201
+
+#########
+#    ...#
+# @     #
+#      +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:2
+Movimientos:14
+Heuristica:-9
+Id:313
+Hijos:
+Padre:,202
+
+#########
+#    ...#
+#       #
+#      +#
+#  ##+  #
+# ## +  #
+#  #@   #
+#########
+Posicion:x:4 y:6
+Movimientos:14
+Heuristica:-9
+Id:309
+Hijos:
+Padre:,,,196
+
+#########
+#    ...#
+#       #
+#      +#
+# @##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:2 y:4
+Movimientos:14
+Heuristica:-9
+Id:314
+Hijos:
+Padre:202
+
+#########
+#    ...#
+#       #
+#@     +#
+#  ##+  #
+# ## +  #
+#  #    #
+#########
+Posicion:x:1 y:3
+Movimientos:14
+Heuristica:-9
+Id:315
+Hijos:
+Padre:,,,202

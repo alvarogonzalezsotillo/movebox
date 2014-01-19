@@ -1,0 +1,69 @@
+<html>
+
+
+
+	<body>
+	
+		<canvas id="theCanvas" height="600" width="800">	
+			No tienes canvas
+		</canvas>
+		<span id="etiqueta">Una etiqueta</span>
+
+		<script>
+		
+			angulo = 0;
+			canvas = document.getElementById("theCanvas");
+			canvasW = canvas.width;
+			canvasH = canvas.height;
+
+			etiqueta = document.getElementById("etiqueta");
+			
+			colorLinea = "rgb(200,0,0)";
+			
+			ctx = canvas.getContext("2d");
+			ctx.strokeStyle = colorLinea;
+			ctx.lineWidth = 4;
+			contador = 0;
+			function DarUnPaso(){
+			
+				contador++;
+			
+				angulo += 0.01;
+				centerx = canvasW/2;
+				centery = canvasH/2;
+				radio = Math.min(centerx, centery);
+				
+				x1 = centerx + radio*Math.cos(angulo);
+				y1 = centery + radio*Math.sin(angulo);
+				
+				x2 = centerx - (x1-centerx);
+				y2 = centery - (y1-centery);
+
+				
+				ctx.clearRect(0,0,canvasW,canvasH);
+
+				
+				ctx.beginPath();
+
+				ctx.moveTo(x1,y1);
+				ctx.lineTo(x2,y2);
+				ctx.stroke();
+				
+				ctx.closePath();
+				//etiqueta.innerText = x1 + "," + y1;
+				
+			}
+			
+			function mostrarFPS(){
+				etiqueta.innerText = contador;
+				contador = 0;
+			}
+		
+
+			window.setInterval( DarUnPaso, 1000/60 );	
+			window.setInterval( mostrarFPS, 1000 );
+		</script>
+	
+	</body>
+
+</html>

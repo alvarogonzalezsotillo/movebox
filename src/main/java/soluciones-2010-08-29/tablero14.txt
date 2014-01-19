@@ -1,0 +1,10 @@
+ 0123
+0####
+1#@*#
+2####
+SOLUCION: 00:00:00 (0 ms)Explotados: 0	No explotable:0	No explotados: 1
+6493987 (6573): 0.0
+ 0123
+0####
+1#@*#
+2####
